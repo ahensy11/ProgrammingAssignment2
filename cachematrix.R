@@ -14,7 +14,7 @@ makeCacheMatrix <- function(x = matrix()) {
         getinv <- function() inv #returns value of inverse of matrix
         list(set = set, get = get,
              setinv = setinv,
-             getinv = getinv) #stores values
+             getinv = getinv) 
 }
 
 cacheSolve <- function(x, ...) {
